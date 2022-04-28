@@ -235,15 +235,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     </item>
     
     <item>
-      <title>Our Pricing</title>
-      <link>https://www.ventoryapp.com/website/pricing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ventoryapp.com/website/pricing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Our Service</title>
       <link>https://www.ventoryapp.com/website/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -258,6 +249,15 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.ventoryapp.com/website/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://www.ventoryapp.com/website/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ventoryapp.com/website/pricing/</guid>
       <description></description>
     </item>
     
