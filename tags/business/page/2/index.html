@@ -206,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         
         <!-- get start btn -->
-        <a href="https://www.ventoryapp.com/website/get-started" class="btn btn-outline-primary text-white ml-lg-3">get started</a>
+        <a href="https://app.ventory.io/signup/" class="btn btn-outline-primary text-white ml-lg-3">Start your Trial</a>
         
       </div>
     </nav>
@@ -409,87 +409,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<!-- subscription -->
 
-
-<section class="subscription">
-  <div class="container">
-    <div class="subscription-wrapper">
-      <div style="min-height: 120px;" class="d-flex position-relative mx-5 justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
-        <h3 class="text-white flex-fill">Subscribe <br> to our newsletter</h3>
-        <div>
-          <form id="subscribe-form"
-          name="mc-embedded-subscribe-form" target="_blank" novalidate class="row flex-fill">
-            <div style="height: 80px" class="col-lg-7 my-md-2 my-2 form-field">
-              <input type="email" name="email" class="form-control text-white px-4 w-100 text-center text-md-left" placeholder="Your Email" name="EMAIL">
-              <div class="form-field__error">Invalid email</div>
-            </div>
-            <div class="col-lg-5 my-md-2 my-2">
-              <button id="subscribe-form__submit-btn" type="submit" name="subscribe" class="btn btn-primary btn-lg border-0 w-100">Subscribe Now</button>
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
-              </div>
-            </div>
-            <div class="col-lg-12 form-info"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-  #subscribe-form__submit-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: 768px) {
-    #subscribe-form {
-      max-width: 413.88px;
-    }
-  }
-  
-  @media screen and (min-width: 992px) {
-    #subscribe-form {
-      max-width: 515.73px;
-    }
-  }
-</style>
-
-<script>
-  
-  
-  const SUBSCRIBE_FORM = 'subscribe-form'
-
-  const subscribeForm = document.getElementById('subscribe-form');
-  subscribeForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    let valid = true;
-    valid = emailValidator(SUBSCRIBE_FORM, ['email']);
-
-    if (!valid) return;
-
-    fetch('https://api.hsforms.com/submissions/v3/integration/submit/25716919/525668d0-3c38-4f86-b753-5baa50138d61', {
-      method: 'POST', 
-      headers: {'Content-Type': 'application/json'}, 
-      body: JSON.stringify(getFormData(SUBSCRIBE_FORM)), 
-      hutk: getHubspotUtkCookie()})
-    .then(resp => {
-      console.log('form submit', resp);
-      if (resp.status != 200) {
-        showFormMessage(SUBSCRIBE_FORM, 'Something went wrong, try again later!', color = 'red');
-      } else {
-        showFormMessage(SUBSCRIBE_FORM, 'Thank you for subscribing!', color = 'white');
-      }
-    }).catch(error => {
-      showFormMessage(SUBSCRIBE_FORM, 'Something went wrong, try again later!', colr = 'red');
-    });
-  });
-</script>
-
-
-
 <!-- /subscription --><!-- footer part start -->
 <footer class="bg-secondary pt-5">
   <section class="section border-bottom border-color">
@@ -499,8 +418,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="/website"><img src="https://www.ventoryapp.com/website/images/logo-ventory.png" class="mb-4" alt="Ventory | The Best Solution for Inventory Management" width="200px"></a>
           <p class="text-light mb-4">Ventory catapults you to the future of field inventory management through a smart, cloud-based solution you can access from the web and your mobile anytime!</p>
           <ul class="list-inline social-icons">
-            
-            <li class="list-inline-item"><a href="https://github.com/ventoryApp/"><i class="fab fa-github"></i></a></li>
             
             <li class="list-inline-item"><a href="https://be.linkedin.com/company/ventory"><i class="fab fa-linkedin-in"></i></a></li>
             
