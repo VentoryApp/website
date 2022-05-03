@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legal on Ventory | The Best Solution for Inventory Management</title><link>https://www.ventoryapp.com/website/legal/</link><description>Recent content in Legal on Ventory | The Best Solution for Inventory Management</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© Ventory</copyright><atom:link href="https://www.ventoryapp.com/website/legal/index.xml" rel="self" type="application/rss+xml"/><item><title>License agreement</title><link>https://www.ventoryapp.com/website/legal/license-agreement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ventoryapp.com/website/legal/license-agreement/</guid><description>Please read this License Agreement carefully before using, accessing, downloading, installing or otherwise operating any of the Products.</description></item><item><title>Privacy Policy</title><link>https://www.ventoryapp.com/website/legal/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ventoryapp.com/website/legal/privacy-policy/</guid><description>As the provider of the website https://app.ventory.io/, https://ventory.io (hereinafter “Website”) and a mobile application on the Apple and Google Play store, we at Ventory (“Ventory”) are Controller as defined in applicable data protection law, more specifically the General Data Protection Regulation (EU) 2016/679 (“GDPR”), and are therefore responsible for the personal data (“Personal Data”) of the Website user.</description></item><item><title>Terms of Use</title><link>https://www.ventoryapp.com/website/legal/terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ventoryapp.com/website/legal/terms-of-use/</guid><description>By using the website, platform and application services provided by Ventory you agree to the following terms and conditions:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legal on Ventory | The Best Solution for Inventory Management</title>
+    <link>https://www.ventoryapp.com/website/legal/</link>
+    <description>Recent content in Legal on Ventory | The Best Solution for Inventory Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Ventory</copyright><atom:link href="https://www.ventoryapp.com/website/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>License agreement</title>
+      <link>https://www.ventoryapp.com/website/legal/license-agreement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ventoryapp.com/website/legal/license-agreement/</guid>
+      <description>Please read this License Agreement carefully before using, accessing, downloading, installing or otherwise operating any of the Products.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://www.ventoryapp.com/website/legal/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ventoryapp.com/website/legal/privacy-policy/</guid>
+      <description>As the provider of the website https://app.ventory.io/, https://ventory.io (hereinafter “Website”) and a mobile application on the Apple and Google Play store, we at Ventory (“Ventory”) are Controller as defined in applicable data protection law, more specifically the General Data Protection Regulation (EU) 2016/679 (“GDPR”), and are therefore responsible for the personal data (“Personal Data”) of the Website user.</description>
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>https://www.ventoryapp.com/website/legal/terms-of-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ventoryapp.com/website/legal/terms-of-use/</guid>
+      <description>By using the website, platform and application services provided by Ventory you agree to the following terms and conditions:</description>
+    </item>
+    
+  </channel>
+</rss>
